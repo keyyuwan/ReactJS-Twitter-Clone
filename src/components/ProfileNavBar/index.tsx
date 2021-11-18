@@ -8,7 +8,6 @@ export function ProfileNavBar() {
 
   function handleNavigateBetweenButtons(id: number) {
     setButtonSelectedId(id);
-    console.log('cliquei');
   }
 
   return (
