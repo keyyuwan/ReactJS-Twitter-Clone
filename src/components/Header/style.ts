@@ -31,6 +31,14 @@ export const Wrapper = styled.div`
       color: var(--gray);
     }
   }
+
+  @media (min-width: 500px) {
+    .wrapper {
+      h1 {
+        font-size: 1.25rem;
+      }
+    }
+  }
 `;
 
 export const ArrowBackIcon = styled(ArrowLeft)`
