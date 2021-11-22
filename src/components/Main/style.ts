@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   @media (min-width: 500px) {
-    padding: 0 10%;
+    padding: 0 0 0 7%;
 
     display: flex;
     align-items: flex-start;

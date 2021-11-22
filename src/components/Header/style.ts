@@ -1,12 +1,15 @@
 import styled from 'styled-components';
 import { ArrowLeft } from '@styled-icons/bootstrap/ArrowLeft';
+import StickyBox from 'react-sticky-box';
 
-export const Container = styled.div`
+export const Container = styled(StickyBox)`
   height: 47px;
   width: 100%;
 
   display: flex;
   align-items: center;
+
+  background: var(--primary);
 `;
 
 export const Wrapper = styled.div`

@@ -1,32 +1,15 @@
 import styled from 'styled-components';
+import StickyBox from 'react-sticky-box';
 
-export const Container = styled.div`
-  padding: 16px 0;
-  margin-right: 16px;
+export const Container = styled(StickyBox)`
   height: 100vh;
-  width: 4rem;
+  width: 450px;
 
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: space-between;
+  gap: 1rem;
 
-  .icons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.75rem;
-
-    .tweet-icon-box {
-      background-color: var(--twitter);
-      border-radius: 50%;
-      padding: 0.75rem;
-    }
-  }
-
-  img.avatar {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-  }
+  padding: 0.5rem 2rem 4rem 1rem;
 `;
