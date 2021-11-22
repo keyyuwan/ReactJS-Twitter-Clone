@@ -10,6 +10,8 @@
 
 ![responsive (greater or equal than 1280px)](./.github/assets/greaterOrEqualThan1280px.png)
 
+![Twitter clone GIF](./.github/assets/twitter-clone-gif.gif)
+
 # 💻 Project:
 
 In this project I tried to replicate the Twitter interface with ReactJS. <br />
