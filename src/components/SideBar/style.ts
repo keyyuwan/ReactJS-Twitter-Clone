@@ -39,6 +39,7 @@ export const PanelContentContainer = styled.div`
         height: 48px;
 
         border-radius: 50%;
+        cursor: pointer;
       }
 
       .name-username {
@@ -48,6 +49,7 @@ export const PanelContentContainer = styled.div`
 
         h2.name,
         span.username {
+          cursor: pointer;
           font-size: 14px;
         }
 
@@ -67,6 +69,13 @@ export const PanelContentContainer = styled.div`
 
       font-weight: bold;
       padding: 0 1rem;
+
+      cursor: pointer;
+      transition: filter 200ms;
+
+      :hover {
+        filter: brightness(0.85);
+      }
     }
   }
 
@@ -101,6 +110,7 @@ export const PanelContentContainer = styled.div`
 
     h3.title {
       font-size: 15px;
+      cursor: pointer;
     }
   }
 `;

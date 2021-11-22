@@ -20,6 +20,17 @@ export const SearchBarBox = styled.div`
 
   background: var(--outline);
 
+  :focus-within {
+    border: 1px solid var(--twitter);
+    background: var(--primary);
+
+    .input-box {
+      svg {
+        fill: var(--twitter);
+      }
+    }
+  }
+
   .input-box {
     margin-left: 1rem;
 
@@ -31,6 +42,7 @@ export const SearchBarBox = styled.div`
       outline: 0;
       border: 0;
       margin-left: 16px;
+      font-size: 1rem;
 
       ::placeholder {
         font-size: 15px;

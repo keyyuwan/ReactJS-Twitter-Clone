@@ -16,6 +16,15 @@ export const Content = styled.div`
 
     margin-top: -80px;
 
+    button {
+      cursor: pointer;
+      transition: filter 200ms;
+
+      :hover {
+        filter: brightness(0.85);
+      }
+    }
+
     img {
       width: 135px;
       height: 135px;
