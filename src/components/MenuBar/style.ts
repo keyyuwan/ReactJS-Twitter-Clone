@@ -12,6 +12,15 @@ export const Container = styled(StickyBox)`
   align-items: center;
   justify-content: space-between;
 
+  svg {
+    cursor: pointer;
+    transition: filter 200ms;
+
+    :hover {
+      filter: brightness(0.85);
+    }
+  }
+
   .icons {
     display: flex;
     flex-direction: column;
@@ -29,5 +38,6 @@ export const Container = styled(StickyBox)`
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    cursor: pointer;
   }
 `;
