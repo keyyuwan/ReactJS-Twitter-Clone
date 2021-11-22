@@ -6,12 +6,12 @@ export const profiles = [
   },
   {
     name: 'ReactJS',
-    username: 'reactjs',
+    username: '@reactjs',
     img_url: 'https://github.com/reactjs.png',
   },
   {
-    name: 'TypeScript',
-    username: 'typescript',
-    img_url: 'https://github.com/typescript.png',
+    name: 'VueJS',
+    username: '@vuejs',
+    img_url: 'https://github.com/vuejs.png',
   },
 ];

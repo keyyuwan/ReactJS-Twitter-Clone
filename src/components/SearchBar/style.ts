@@ -1,8 +1,17 @@
 import styled from 'styled-components';
+import StickyBox from 'react-sticky-box';
 
-export const Container = styled.div`
-  height: 40px;
+export const Container = styled(StickyBox)`
+  height: 47px;
   width: 100%;
+
+  background: var(--primary);
+
+  padding: 0.25rem 0;
+`;
+
+export const SearchBarBox = styled.div`
+  height: 40px;
 
   display: flex;
   align-items: center;
