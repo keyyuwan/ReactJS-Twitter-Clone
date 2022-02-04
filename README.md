@@ -19,9 +19,9 @@ I used the react-responsive lib to verify screen sizes, the react-sticky-box lib
 I made it responsive and used the following breakpoints: <br />
 
 - < 500px
-- greater ou equal than 500px
-- greater ou equal than 1000px
-- greater ou equal than 1280px
+- greater or equal than 500px
+- greater or equal than 1000px
+- greater or equal than 1280px
 
 # 🚀 Technologies:
 
